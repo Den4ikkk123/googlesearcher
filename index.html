@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Form</title>
+    <style>
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background-color: #f4f4f9;
+        }
+
+        .search-form {
+            background-color: #ffffff; 
+            padding: 30px;
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            text-align: center; 
+            width: 100%;
+            max-width: 500px; 
+        }
+
+        .search-form input[type="text"] {
+            width: 100%; 
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+            font-size: 16px;
+        }
+
+        
+        .search-form button {
+            padding: 10px 30px;
+            background-color: #161fa0; 
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 6px; 
+            
+        }
+
+        .search-form button:hover {
+            background-color: #2b3de0; 
+        }
+
+        .search-form h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333; 
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form action="/search" method="post" class="search-form">
+            <h1>Enter search query</h1> 
+            <label for="query">Search:</label>
+            <input type="text" id="query" name="query" required placeholder="Enter keywords here">
+            <button type="submit">Search</button> 
+        </form>
+    </div>
+
+</body>
+</html>
+
