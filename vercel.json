@@ -4,5 +4,7 @@
     },
     "routes": [
         { src: "/(.*)", dest: "/public/index.php" }
+        { "src": "/app/routes.php", "dest": "/app/routes.php" },
+        { "src": "index.html", "dest": "index.html" }]
     ],
 }
