@@ -30,7 +30,7 @@
         "php-di/php-di": "^7.0",
         "slim/psr7": "^1.5",
         "slim/slim": "^4.10",
-        "symfony/css-selector": "^7.1",
+        "symfony/css-selector": "^7.2",
         "symfony/dom-crawler": "^7.1"
     },
     "require-dev": {
